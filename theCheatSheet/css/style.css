@@ -17,6 +17,12 @@ body
 	margin: 0;
 }
 
+.container
+{
+	width: 80%;
+	margin: auto;
+}
+
 .box-1
 {
 	background-color: #333;
@@ -37,10 +43,73 @@ body
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	word-spacing: 1em;
+
+	text-align: center;
 }
 
-.container
+.box-2
 {
-	width: 80%;
-	margin: auto;
+	background-color: darkblue;
+	color: white;
+
+	border: 5px red dotted;
+	padding: 20px;
+	margin: 20px 0px;
 }
+
+.categories
+{
+	background-color: blue;
+	border: 3px green dashed;
+	padding: 10px;
+	margin: 20px 0px;
+	border-radius: 15px;
+}
+
+.categories h2
+{	
+	font-family: Tahoma;
+	font-weight: 200;
+	font-style: italic;
+	color: black;
+
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.categories ul
+{
+	padding-left: 10px;
+	list-style: none;
+}
+
+.categories a
+{
+	text-decoration: line-through;
+	color: pink;
+}
+
+.categories a:hover
+{
+	color: white;
+}
+
+.categories a:visited
+{
+	color: black;
+}
+
+.categories li
+{
+	background-color: pink;
+	margin-bottom: 5px; 
+	padding: 7px;
+
+	border: 5px maroon solid; 
+
+	list-style-image: url("../images/bullet.png");
+
+}
+
