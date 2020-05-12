@@ -22,7 +22,21 @@ body
 	background-color: #333;
 	color: #fff;
 
-	border: 3px red solid;
+	border: 3px red dashed;
+	padding: 20px;
+	margin: 20px 0px; 
+}
+
+.box-1 h1
+{
+	font-family: Tahoma;
+	font-weight: 200;
+	font-style: italic;
+
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
 }
 
 .container
