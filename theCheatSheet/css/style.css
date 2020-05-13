@@ -5,8 +5,8 @@
 
 body
 {
-	background-color: #f4f4f4;
-	color: #555555;
+	background-color: pink;
+	color: green;
 
 /*	font-family: Arial, Helvetica, sans-serif;
 	font-size : 16px;
@@ -23,10 +23,31 @@ body
 	margin: auto;
 }
 
+.button
+{
+	background-color: aqua;
+	color: black;
+	border-radius: 15px;
+	border: none;
+	padding: 5px 7.5px; 
+	font-size: 16px;
+	display: inline;
+}
+
+.button:hover
+{
+	background: red;
+	color: white;
+}
+
+.clr
+{
+	clear: both;
+}
 .box-1
 {
-	background-color: #333;
-	color: #fff;
+	background-color: black;
+	color: white;
 
 	border: 3px red dashed;
 	padding: 20px;
@@ -110,6 +131,41 @@ body
 	border: 5px maroon solid; 
 
 	list-style-image: url("../images/bullet.png");
+
+}
+
+.myForm
+{
+	background-color: #365577;
+	color: #b4895a; 
+	padding: 5px 0px 5px 5px;
+/*	margin: 5px 0px 5px 5px;
+*/}
+
+.myForm .formGroup
+{
+	margin-bottom: 10px;
+}
+
+.myForm label
+{
+	display: block;
+}
+
+.myForm input[type="text"], .myForm textarea
+{
+	width: 50%;
+	padding: 5px;
+}
+
+.parallelBoxes
+{
+	float: left;
+	width: 32.875%;
+	border: 5px solid #45b3e0;
+	padding: 0px 10px;
+	margin: 2px; 
+	box-sizing: border-box;
 
 }
 
