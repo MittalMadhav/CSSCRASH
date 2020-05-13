@@ -166,6 +166,79 @@ body
 	padding: 0px 10px;
 	margin: 2px; 
 	box-sizing: border-box;
-
 }
 
+#mainBar
+{
+	float: left;
+	width: 70%;
+	box-sizing: border-box;
+	background-color: #333;
+	color: white;
+	padding: 0px 15px;
+	margin: 10px 2px;
+}
+
+#sideBar
+{
+	float: right;
+	width: 29%;
+	box-sizing: border-box;
+	background-color: #333;
+	color: white;
+	padding: 0px 15px;
+	margin: 10px 2px;
+}
+
+.p-box
+{
+	width: 800px;
+	height: 800px;
+	border: 3px black solid;
+	margin-top: 30px;
+
+	background-image: url("../images/bg.jpg");
+	background-position: center center;
+	background-size: 800px 800px;
+	box-sizing: border-box;
+
+
+	position: relative;
+}
+
+.p-box h1
+{
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+
+.p-box h2
+{
+	position: absolute;
+	bottom: 200px;
+	right: 200px;
+}
+
+.fixedStuff
+{
+	position: fixed;
+	top: 400px;
+}
+
+.fixedStuff2
+{
+	position: fixed;
+	top: 430px;
+}
+
+
+.mylist li:nth-child(even)
+{
+	background: #c9e9f6;
+}
+
+.mylist li:nth-child(odd)
+{
+	background: #B2868E;
+}
